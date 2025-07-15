@@ -7,58 +7,76 @@
 <body>
     <style>
         table {
-            width: 70%;
-            border: 1px solid black;
+            margin: 20px 0;
             border-collapse: collapse;
         }
-        th {
-            border-color:  black;
-            border-style: dashed;
-            border-width: 10px;
-            padding: 5px 10px;
+        th.td {
+            border: 1px dotted black;
+            padding:8px 12px ;
+            text-align: center;
         }
-
-        th {
-            background-color: #eed8eb;
-            text-align: left;
+        .Vacio {
+            border:1px dotted black;
+            width: 30px;
         }
-
-        td {
-            border-width: 2px;
-            text-align: justify;
-
+        .titulo-poblacion {
+            font-weight: bold;
+            background-color: #e8d4f5;
+        }
+        .subtitulo-sexo {
+            background-color: #f0e6fa;
         }
     </style>
 
     <h2> Tabla de Poblacion:</h2>
-    <table border="1">
+    <table border="1" cellpadding="5" celspacing="0">
         <thead>
           <tr>
-            <th rowspan="2">Personal Tecnico en Enfermeria</th>
-            <th colspan="2">Poblacion</th>
+            <th rowspan="3">Personal Tecnico en Enfermeria</th>
+            <th colspan="4">Poblacion</th>
           </tr>
-          <th> Hombres</th>
+          <tr>
+            <th colspan="2">Sexo</th> 
+            <th colspan="8">TOTAL</th>
+          </tr>
+          <th>Hombres</th>
           <th>Mujeres</th>
+         
         </thead>
         <tbody>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Consultorios Externos</td>
+            <td>02</td>
+            <td>18</td>
+            <td>20</td>
           </tr>
           <tr>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td>Hospitalizacion</td>
+            <td>06</td>
+            <td>14</td>
+            <td>20</td>
+          </tr>
+           <tr>
+            <td>Laboratorios y Otros</td>
+            <td>02</td>
+            <td>18</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>TOTAL</td>
+            <td>10</td>
+            <td>50</td>
+            <td>60</td>
           </tr>
         </tbody>
       </table>
     
+    
     <style>
-        table {
-            width: 70%;
-            border: 1px solid black;
-            border-collapse: collapse;
+           table {
+            width: 40%;
+            border: 4px solid black;
+            border-collapse: separate;
         }
         th, td {
             border-color:  black;
@@ -67,16 +85,50 @@
             padding: 5px 10px;
         }
 
-        th {
-            background-color: #eed8eb;
-            text-align: left;
+        .caption {
+            font-weight: bold;
+            margin-bottom: 8px;
         }
 
-        td {
-            text-align: justify;
-
+        .rojo {
+            background-color: red;
+            color: white;
+            font-weight: lighter;
         }
     </style>
+     <h2>Animales en Peligro de Extincion:</h2>
+     <table border="1">
+        <tr>
+            <th colspan="7">Animales en Peligro de Extincion</th>
+        </tr>
+        <tr>
+            <td>Nombre</td>
+            <td>Cabezas</td>
+            <td>Previcion 2010</td>
+            <td>Previcion 2020</td>
+        </tr>
+        <tr>
+            <td>Ballenas</td>
+            <td>6000</td>
+            <td>4000</td>
+            <td>1500</td>
+        </tr>
+        <tr>
+            <td>Oso Pardo</td>
+            <td>50</td>
+            <td class="rojo" colspan="7">0</td>
+        </tr>
+        <tr>
+            <td>Lince</td>
+            <td>10</td>
+        </tr>
+         <tr>
+            <td>Tigre</td>
+            <td>300</td>
+            <td colspan="5">210</td>
+        </tr>
+
+     </table>
     <h2> Su pedido :</h2>
      <table border="1">
         <tr>
