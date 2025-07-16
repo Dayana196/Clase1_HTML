@@ -1,22 +1,55 @@
 body {
     margin: 0;
 }
-
-.box {
-    border: 1px solid black;
-    padding: 12px;
-    width: 250px;
-    height: 110px;
-    margin: 10px;
+.box, .Caja-1,.Caja-2,.elemento1,.elemento2 {
+    border: 2px solid rgb(22, 3, 3);
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    border-radius: 10px;
 }
-       
 .box1 {
     background-color: indianred;
-    margin-top: 24px;
-    margin-bottom: 3px;
-    margin: 0 auto 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 250px;
 }
-
 .box2 {
     background-color: lightcoral;
 }
+
+.Caja-1 {
+    background-color: salmon;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 240px;
+    padding: 80px;
+    width: 250px;
+    border-color: black;
+    height: 24px;
+}
+.Caja-2 {
+    background-color: darksalmon;
+    padding: 80px;
+    width: 250px;
+    height: 20px;
+}
+
+.elemento1 {
+    background-color: lightsalmon;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 240px;
+    padding: 80px;
+    width: 250px;
+    border-color: black;
+    height: 20px;
+}
+.elemento2 {
+    background-color: crimson;
+    padding: 80px;
+    width: 250px;
+    height: 20px;
+}
+
+
