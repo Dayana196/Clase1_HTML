@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(175, 162, 235);
+    color: rgb(0, 0, 0);
+    width: 700;
+    max-width: 800px;
+    height: 450px;
+    padding: 30px;
+}
+
+.item {
+    width: 100%;
+    color: rgb(12, 12, 12);
+    border: 2px solid rgb(132, 51, 179);
+    background-color: rgb(240, 234, 234);
+    height: 80px;
+}
+
+.item .item-hijo {
+    position: static;
+    margin: auto;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    color:  aliceblue;
+    padding: 5px;
+    background-color: rgb(196, 144, 245);
+    border-radius: 40px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.item .item-hijo i {
+    margin: 25% auto;
+    display: block;
+}
+
+.item .item-hijo-azul {
+position: relative;
+background-color: rgb(124, 166, 230);
+color: aliceblue;
+padding: 5px;
+width: 40px;
+height: 35px;
+bottom: 40px;
+border-radius: 50px;
+text-align: center;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.item-hijo-fucsia {
+    position: absolute;
+    background-color: rgb(240, 175, 234);
+    color: aliceblue;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+} 
+
+.item [class*="item-hijo-"] i {
+    margin: 25%auto;
+    display: block;
+}
+
+.Footer {
+    position: fixed;
+    background-color: rgb(158, 81, 247) ;
+    color: aliceblue;
+    text-align: center;
+    width: 100vw;
+    height: 75px;
+    bottom: 0px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: #cdb8f5;
+    color: aliceblue;
+    width: 100vw;
+    height: 80px;
+    text-align: center;
+    z-index: 2;
+}
+
+.header > h1 {
+    padding-top: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 80px;
+    background-color: #e7d2d2;
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.nav ul li a{
+    display: inline-block;
+    color: rgb(77, 60, 235);
+}
